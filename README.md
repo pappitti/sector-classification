@@ -26,7 +26,7 @@ embeddings.py contains the function that generates embeddings for all level 4 su
 
 single_company.py contains a script that requires setting the model name as variable, and then takes user input for one company description. The user can subsequently choose which classification they want to use, and which methodology they want to use to assess similarity (KNN or SVM).  
  
-entire_table.py implements the same methods as single_company.py except that the script iterates through an entire table and saves the top-3 results according to KNN and SVM in a csv format.   
+entire_table.py implements the same methods as single_company.py except that the script iterates through a dictionay of companies and saves the top-3 results according to KNN and SVM in a csv format.   
 
 
 embeddings_viz.py contains the script to visualize the embeddings after dimension reduction with sklearn. Each point represents a level 4 sub-sector, colors are defined based on level 1.  
