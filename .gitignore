@@ -1,0 +1,14 @@
+__pycache__
+myvenv/
+.env
+backend/__pycache__
+test.py
+output.gsheet
+output.csv
+output_bge_small.csv
+output_bge_large.csv
+output_allMini.csv
+output_bge_small.gsheet
+output_bge_large.gsheet
+output_allMini.gsheet
+.DS_Store
